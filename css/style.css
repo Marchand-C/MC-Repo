@@ -1,0 +1,324 @@
+body{
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	grid-auto-rows: minmax(min-content, auto);
+	font-family: FixEmoji,-apple-system,system-ui,BlinkMacSystemFont,Roboto,Arial, sans-serif;
+}
+	/*NAVBARRE*/
+
+.navbarre{
+	margin-top: 20px;
+	grid-area: 1/1/1/6;
+	max-height: 100%;
+	max-width: 100%;
+	text-align: center;
+}
+
+.barre{
+	display: inline-block;
+	width: 67%;
+	text-align: right;
+
+}
+.logo{
+	display: inline-block;
+	float: left;
+	
+}	
+
+.onglet{
+	display: inline-block;
+}
+a{
+	text-decoration:  none;
+	margin: 8px;
+	color: rgb(114, 114, 125);
+}
+	/*BLOC 1*/
+
+.bloc1{
+	grid-area: 2/1/2/6;
+	margin-top: 60px;
+	margin-right: auto;
+	margin-left: auto;
+}
+	/*BLOC 2*/
+
+.bloc2{
+	grid-area: 3/1/3/6;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+.titreindex{
+	margin-top: 40px;
+}
+
+h1{
+	text-align: center;
+	margin: 0;
+	font-size: 50px;
+}
+
+h4{
+	text-align: center;
+	margin-bottom: 60px;
+	font-size: 23px;
+	color: rgb(114, 114, 125);
+}
+.bloc2> div> img{
+	max-height: 100%;
+	max-width: 100%;
+}
+.bloc2> div{
+	margin-top: 30px;
+}
+.bloc2{
+	margin-bottom: 50px;
+}
+	/*BOUTON MAIL*/
+
+
+.mail{
+	text-align: center;
+	margin-top: :20px;
+}
+label{
+	border-radius: 45px;
+	padding-top: 19px;
+	padding-bottom: 17px;
+	padding-left: 25px;
+	padding-right: 25px;
+	background-color: rgb(81, 104, 236);
+	color: white;
+	box-shadow: -37px 5px 62px 10px rgba(81, 104, 236, 0.07);
+}
+label:hover{
+	background-color: rgb(115, 134, 240);
+}
+input{
+	border-radius: 45px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 300px;
+	margin-right: -50px;
+	box-shadow: -37px 5px 62px 10px rgba(81, 104, 236, 0.07);
+	font-size: 16px;
+}
+
+	/*BLOC 3-4*/
+
+.bloc3-4{
+	grid-area: 4/1/4/6;
+	
+}
+.agenda{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+.bloc3-4> div> img{
+	margin: 50px;
+}
+	/*BOUTON START FOR FREE*/
+
+.boutonstf{
+	border-radius: 45px;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	padding-left: 25px;
+	padding-right: 25px;
+	background-color: rgb(81, 104, 236);
+	color: white;
+	box-shadow: -37px 5px 62px 10px rgba(81, 104, 236, 0.07);
+}
+
+.stf{
+	display: flex;
+	align-items: flex-start;
+	margin-left: 56%;
+	margin-top: -125px;
+	margin-bottom: 80px;
+}
+.stf>a:hover{
+	background-color: rgb(115, 134, 240);
+		
+}
+.join> h3{
+	text-align: center;
+	color: rgb(114, 114, 125);
+	font-size: 20px;
+	margin-bottom: 50px;
+
+	/*BANDEAU LOGOS*/
+}
+.bloc5{
+	grid-area: 5/1/5/6;
+	width: 65%;
+	height: 140px;
+	margin: auto;
+}
+.bloc5> img{
+	width: 100%;
+	height: 80%;
+	
+}	
+	/*BLOC 6-7-8*/
+
+	
+.bloc6-7-8{
+	grid-area: 6/1/7/6;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.bloc6-7-8>div{
+	display: flex;
+	justify-content: space-between;
+	
+}
+.bloc6, .bloc8{
+	display: inline-block;
+	margin-left: 4%
+
+	
+}
+.bloc7{
+	display: inline-block;
+	margin-right: 21%;
+}
+.bloc6-7-8> div> img{
+	width: 50%;
+	margin-right: 0%
+
+}
+.bloc6-7-8 h2:only-of-type{
+	font-size: 45px;
+	
+}
+.bloc6-7-8 p:only-of-type{
+	font-size: 18px;
+	color: rgb(114, 114, 125);
+}
+.stf2{
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+	/*BOUTON START FOR FREE*/
+
+
+.stf2>a{
+	margin: auto;
+}
+.stf2>a:hover{
+	background-color: rgb(115, 134, 240);
+		
+}
+.bloc9{
+	grid-area: 7/1/7/6;
+	background-image: url("../img/index/bloc9.png");
+	width: 100%;
+	height: 295px;
+
+}
+.boutonfloat1{
+	display: inline-block;
+	border-radius: 45px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color: white;
+	color: rgb(81, 104, 236);
+	font-size: 13px;
+	margin-top: 109px;
+	margin-bottom: 150px;
+	margin-left: 46%;
+	margin-right: 40%;
+
+}	
+	
+.bloc10{
+	grid-area: 8/1/8/6;
+	background-image: url("../img/index/bloc10.png");
+	width: 100%;
+	height: 450px;
+
+}
+.boutonfloat2{
+	display: inline-block;
+	border-radius: 45px;
+	padding-top: 10px;
+	padding-bottom: 13px;
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color: white;
+	color: rgb(113, 209, 220);
+	font-size: 11px;
+	margin-top: 220px;
+	margin-left: 25%;
+	margin-right: 63%;
+}
+
+.bloc11-12{
+	grid-area: 9/1/9/6;
+	display: inline-block;
+	width: 70%;
+	height: 250px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 150px;
+	margin-bottom: 180px;
+}
+.bloc11-12 .logos:only-of-type{
+	display: inline-block;
+	float: right;
+	width: 60%;
+	height: 250px;
+	
+}
+.trusted-stars{
+	display: inline-block;
+	float; left;
+	width: 39%;
+	height: 250px;
+
+}
+.trusted-stars> h3{
+	font-size: 30px;
+	color: rgb(68, 67, 82);
+	
+}
+.stars{
+	height: 50px;
+}
+.fin{
+	grid-area: 10/1/10/6;
+	height: 150px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+.fin>p{
+	font-size: 50px;
+	margin-top: 1px;
+}
+.stf3{
+	display: inline-block;
+	
+}
+footer{
+	grid-area: 11/1/11/6;
+	height: 400px;
+	
+	
+}
+.footer{
+	display: inline-block;
+	margin-left: 17%;
+
+}
+.footer>a{
+	float: left;
+}
